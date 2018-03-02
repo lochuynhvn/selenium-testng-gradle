@@ -25,11 +25,7 @@ public class Search {
 		e.sendKeys("Implement test case #1");
 	}
 
-	@Test
-	public void TC_002() {
-		WebElement e = this.driver.findElement(By.xpath("//input[@id='lst-ib']"));
-		e.sendKeys("Implement test case #2");
-	}
+	
 	
 	@AfterSuite
 	public void tearDown() {
