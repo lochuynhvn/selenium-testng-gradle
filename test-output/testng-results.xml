@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="703" started-at="2018-03-02T04:32:31Z" finished-at="2018-03-02T04:32:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="703" started-at="2018-03-02T04:32:31Z" finished-at="2018-03-02T04:32:32Z">
+      <class name="search.Search">
+        <test-method status="PASS" signature="setup()[pri:0, instance:search.Search@457e2f02]" name="setup" is-config="true" duration-ms="31105" started-at="2018-03-02T11:32:00Z" finished-at="2018-03-02T11:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC_001()[pri:0, instance:search.Search@457e2f02]" name="TC_001" duration-ms="541" started-at="2018-03-02T11:32:31Z" finished-at="2018-03-02T11:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="TC_002()[pri:0, instance:search.Search@457e2f02]" name="TC_002" duration-ms="144" started-at="2018-03-02T11:32:32Z" finished-at="2018-03-02T11:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:search.Search@457e2f02]" name="tearDown" is-config="true" duration-ms="1424" started-at="2018-03-02T11:32:32Z" finished-at="2018-03-02T11:32:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- search.Search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
