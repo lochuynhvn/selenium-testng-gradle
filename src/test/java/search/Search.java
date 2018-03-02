@@ -13,6 +13,7 @@ public class Search {
 	@BeforeSuite
 	public void setup() {
 		System.out.println("--------Set Up--------------");
+		System.setProperty("webdriver.chrome.driver", "..//chromedriver.exe");
 		this.driver = new ChromeDriver();
 		this.driver.get("https://www.google.com/");
 		
